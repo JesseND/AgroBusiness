@@ -1,4 +1,4 @@
-package com.company.AgroBusiness;
+package com.company.agrobusiness;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
