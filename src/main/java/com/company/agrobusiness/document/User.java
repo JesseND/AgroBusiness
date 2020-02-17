@@ -1,17 +1,16 @@
 package com.company.agrobusiness.document;
 
 import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.UUID;
 import java.util.List;
 
-@Entity
+@Document(value = "user")
 @Data
-public class User implements Serializable {
+public class User {
 
     @Id
     private UUID userId;

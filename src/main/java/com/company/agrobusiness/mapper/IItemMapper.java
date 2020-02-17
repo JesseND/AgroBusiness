@@ -1,5 +1,6 @@
 package com.company.agrobusiness.mapper;
 
+import com.company.agrobusiness.document.Item;
 import org.mapstruct.Mapper;
 import org.mapstruct.NullValuePropertyMappingStrategy;
 

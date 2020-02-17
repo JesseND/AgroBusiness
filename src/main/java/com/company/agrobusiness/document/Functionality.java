@@ -1,14 +1,16 @@
 package com.company.agrobusiness.document;
 
+
 import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.io.Serializable;
 import java.util.List;
-import javax.persistence.*;
 
-@Entity
 @Data
-public class Functionality implements Serializable {
+@Document(value = "functionality")
+
+public class Functionality  {
 
     @Id
     private String code;

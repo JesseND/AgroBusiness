@@ -2,11 +2,10 @@ package com.company.agrobusiness.document;
 
 
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.Entity;
-import java.io.Serializable;
 
 @Data
-@Entity
-public class OrderHistory implements Serializable {
+@Document(value = "order_history")
+public class OrderHistory{
 }

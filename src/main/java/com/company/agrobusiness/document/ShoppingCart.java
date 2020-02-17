@@ -1,11 +1,11 @@
 package com.company.agrobusiness.document;
 
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.Entity;
 import java.io.Serializable;
 
-@Entity
+@Document(value = "shopping_cart")
 @Data
-public class ShoppingCart implements Serializable{
+public class ShoppingCart {
 }

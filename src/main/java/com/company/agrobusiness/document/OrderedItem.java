@@ -1,15 +1,13 @@
 package com.company.agrobusiness.document;
 
 import lombok.Data;
-
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import java.io.Serializable;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.UUID;
 
 @Data
-@Entity
-public class OrderedItem implements Serializable {
+@Document(value = "ordered_item")
+public class OrderedItem  {
 
     @Id
     private UUID orderedItemId;
