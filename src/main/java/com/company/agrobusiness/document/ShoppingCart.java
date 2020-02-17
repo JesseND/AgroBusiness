@@ -1,4 +1,4 @@
-package com.company.agrobusiness.entity;
+package com.company.agrobusiness.document;
 
 import lombok.Data;
 
@@ -7,5 +7,5 @@ import java.io.Serializable;
 
 @Entity
 @Data
-public class ShippingInfo implements Serializable {
+public class ShoppingCart implements Serializable{
 }

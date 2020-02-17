@@ -1,4 +1,4 @@
-package com.company.agrobusiness.entity;
+package com.company.agrobusiness.document;
 
 import lombok.Data;
 import javax.persistence.Entity;
